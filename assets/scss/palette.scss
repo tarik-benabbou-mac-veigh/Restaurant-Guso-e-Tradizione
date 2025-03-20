@@ -1,0 +1,26 @@
+// Adding my personal colors : 
+$light-beige: #faf3e0; /*Background*/
+$light-bordeau: #800020; /*Header, Footer, CTA*/
+$dark-1: #1C1C1C; /*Font*/
+$gold:  #C9A14A; /*For the details*/
+
+// Creation of my colors palette : 
+$custum-theme-colors: (
+    "light-beige": $light-beige,
+    "light-bordeau": $light-bordeau,
+    "dark-1": $dark-1,
+    "gold": $gold,
+);
+
+// Link between my colors palette and Bootstrap theme-colors :
+$theme-colors: map-merge($custum-theme-colors, $theme-colors);
+
+// Against bugs on bg & text :
+@each $key, $val in $custum-theme-colors{
+    .bg-#{$key} {
+        background-color: $val !important;
+    }
+    .text-#{$key} {
+        color: $val !important;
+    } 
+}
