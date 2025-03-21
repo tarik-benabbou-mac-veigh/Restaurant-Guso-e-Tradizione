@@ -3,6 +3,7 @@ $light-beige: #faf3e0; /*Background*/
 $light-bordeau: #800020; /*Header, Footer, CTA*/
 $dark-1: #1C1C1C; /*Font*/
 $gold:  #C9A14A; /*For the details*/
+$green-olive: #6B8E23; /*Other font*/
 
 // Creation of my colors palette : 
 $custum-theme-colors: (
@@ -10,6 +11,7 @@ $custum-theme-colors: (
     "light-bordeau": $light-bordeau,
     "dark-1": $dark-1,
     "gold": $gold,
+    "green-olive": $green-olive,
 );
 
 // Link between my colors palette and Bootstrap theme-colors :

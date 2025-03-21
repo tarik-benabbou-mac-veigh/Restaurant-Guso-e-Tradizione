@@ -1,4 +1,7 @@
+// For the titles : 
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+// For the regular text : 
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
 h1, h2, h3, h4, header{
     font-family: "Cinzel", serif;
@@ -6,3 +9,12 @@ h1, h2, h3, h4, header{
     font-weight: weight;
     font-style: normal;
 }
+
+p{
+    font-family: "Merriweather", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+
