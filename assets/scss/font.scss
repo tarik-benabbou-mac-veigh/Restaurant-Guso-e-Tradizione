@@ -3,14 +3,14 @@
 // For the regular text : 
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
 
-h1, h2, h3, h4, header{
+h1, h2, h3, h4, header, .list-group-item{
     font-family: "Cinzel", serif;
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
 }
 
-p{
+p, span, .accordion-body{
     font-family: "Merriweather", serif;
     font-optical-sizing: auto;
     font-weight: weight;
