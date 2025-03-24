@@ -12,23 +12,94 @@
         <!-- Navbar -->
         <nav class="d-flex justify-content-center bg-light-bordeau">
             <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/index.html">Home</a>
-            <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/menu.html">Menu</a>
             <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/about.html">About</a>
+            <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/menu.html">Menu</a>
             <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/reservation.html">Reservation</a>
             <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/contact.html">Contact</a>
         </nav>
     </header>
-    <main>
+    <main class="bg-light-beige ">
+        <div class="position-relative form-image">
+            <img class="position-absolute opacity-75"  src="./assets/images/village-gusto-e-tradizione.jpg" alt="landscape of the italian coast with the view of the village and boats during summer time">
+
+            <div class="position-relative w-100 h-100 d-flex flex-column justify-content-center align-items-center">
+                <h2 class="text-green-sea fw-bold display-3 ">History of</h2>
+                <h1 class="text-green-sea fw-bold display-1 my-4">Gusto e Tradizione</h1>
+            </div>
+        </div>
+
+        <section class="container d-flex flex-column justify-content-center align-items-center">
+            <h2 class="display-4 fw-bold my-5">~~ How our project started ~~</h2>
+            <div class=" w-50 fs-5 justify-content-evenly">
+                <p>Nestled in a charming lakeside town, Gusto e Tradizione was founded by renowned chefs <span class="history-name">Giovanni Moretti</span> and <span class="history-name">Luca Bellucci</span>, driven by their passion for authentic Italian cuisine.</p>
+                <p>Raised in Italy’s culinary heartlands, they envisioned a restaurant that honors traditional flavors while embracing modern techniques. Each dish tells a story—one of heritage, family recipes, and fresh, locally sourced ingredients.</p>
+            </div>
+        </section>
+            
+            <!-- Italians chefs -->
+        <section class="container-fluid bg-light-beige border-top border-3 mt-5">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h2 class="fw-bold display-4 my-4">~~ Our chefs ~~</h2>
+                <h2 class="display-5 mb-4 text-green-sea">The Culinary Soul of Gusto e Tradizione</h2>
+                <span class="text-light-bordeau text-center fs-5 w-50 mb-4">Giovanni Moretti and Luca Bellucci form a passionate duo of chefs, blending tradition and creativity at Gusto e Tradizione.</span>
+            </div>
+       
+            <!-- Chef: Giovanni Moretti -->
+            <div class="row row-cols-1 row-cols-lg-2">
+              <!-- Green bloc -->
+                <div class="bg-green-sea h-400 p-4 p-md-5 d-flex flex-column">
+                    <div>
+                        <h3 class="display-4 text-gold fw-bold text-center">Giovanni Moretti</h3>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <p class="fs-5 mt-4 text-light">Born in Tuscany, Giovanni Moretti grew up in a family where cooking was an art passed down through generations. After studying at the Culinary Institute of Florence, he refined his skills in renowned Italian trattorias.</p> 
+                            <p class="fs-5 mt-4 text-light">A specialist in fresh pasta and slow-cooked sauces, Giovanni is dedicated to preserving ancestral recipes while enhancing each ingredient with precision and authenticity.</p>
+                        </div>
+                    </div>
+                    <!-- Buttons -->
+                    <div class="mt-auto d-flex justify-content-evenly">
+                        <h4><a href="./reservation.html" class="bg-light-bordeau text-decoration-none rounded fs-5 text-light py-2 px-4 text-center" style="cursor: pointer;">Make a reservation</a></h4>
+                        <h4><a href="./menu.html" class="bg-light-bordeau text-decoration-none rounded fs-5 text-light py-2 px-4 text-center" style="cursor: pointer;">Our menu</a></h4>
+                    </div>
+                </div>
+              <!-- Photo -->
+                <div class="h-400 g-0">
+                    <img src="./assets/images/giovanni-moretti-gusto-e-tradizione.jpg" alt="italian chef cooking in the garden" class="w-100 h-100 object-cover">
+                </div>
+            </div>
+    
+            <!-- Chef: Luca Bellucci -->
+            <div class="row row-cols-1 row-cols-lg-2">
+                <!-- Photo -->
+                <div class="h-400 g-0 responsive-order-2">
+                    <img src="./assets/images/luca-bellucci-gusto-e-tradizione.jpg" alt="italian chef adding a pizza in an traditional oven" class="w-100 h-100 object-cover">
+                </div>
+                <!-- Light-bordeau bloc -->
+                <div class="bg-light-bordeau h-400 p-4 p-md-5 d-flex flex-column responsive-order-1">
+                    <div>
+                        <h3 class="display-4 text-gold fw-bold text-center">Luca Bellucci</h3>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <p class="fs-5 mt-4 text-light">Luca Bellucci, on the other hand, comes from Naples, the heart of Mediterranean cuisine. After training in modern gastronomy in Milan, he traveled across Italy and France to explore new culinary trends.</p> 
+                            <p class="fs-5 mt-4 text-light">His style is distinguished by bold flavor combinations and a mastery of presentation. An expert in desserts and contemporary reinterpretations of Italian classics, Luca brings elegance and innovation to the restaurant’s dishes.</p>
+                        </div>
+                    </div>
+                    <!-- Buttons -->
+                    <div class="mt-auto d-flex justify-content-evenly">
+                        <h4><a href="./reservation.html" class="bg-green-sea text-decoration-none rounded fs-5 text-light py-2 px-4 text-center" style="cursor: pointer;">Make a reservation</a></h4>
+                        <h4><a href="./menu.html" class="bg-green-sea text-decoration-none rounded fs-5 text-light py-2 px-4 text-center" style="cursor: pointer;">Our menu</a></h4>
+                    </div>
+              </div>
+            </div>
+          </section>
 
     </main>
     <footer>
         <section class="d-flex justify-content-evenly bg-light-bordeau text-light p-3">
             <div class="d-flex flex-column justify-content-start align-items-center">
-                <h3>Gusto e Tradizione</h3>
+                <h3 class="text-gold fw-bold">Gusto e Tradizione</h3>
                 <span>"The essence of Italy in every bite"</span>
             </div>
             <div class="d-flex flex-column justify-content-start align-items-center">
-                <h3>Let us guide you</h3>
+                <h3 class="text-gold fw-bold">Let us guide you</h3>
                 <ul class="list-unstyled">
                     <li><a class="text-decoration-none text-light" href="/index.html">Home</a></li>
                     <li><a class="text-decoration-none text-light" href="/menu.html">Menu</a></li>
@@ -37,8 +108,8 @@
                     <li><a class="text-decoration-none text-light" href="/contact.html">Contact</a></li>
                 </ul>
             </div>
-            <div class="d-flex flex-column justify-content-start align-items-center">
-                <h3>Contact us</h3>
+            <div class="d-flex flex-column justify-content-cet align-items-center">
+                <h3 class="text-gold fw-bold">Contact us</h3>
                 <ul class="list-unstyled">
                     <li>12, via del Gusto, 750001 Paris</li>
                     <li>01 23 45 67 89</li>
@@ -47,7 +118,7 @@
                 </ul>
             </div>
             <div class="d-flex flex-column justify-content-start align-items-center">
-                <h3>Follow us</h3>
+                <h3 class="text-gold fw-bold">Follow us</h3>
                 <!-- svg facebook -->
                  <div class="icon">
                     <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="#ffffff" d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5V334.2H141.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H287V510.1C413.8 494.8 512 386.9 512 256h0z"/></svg></a>
@@ -62,7 +133,7 @@
                 </div>
             </div>
             <div class="d-flex flex-column justify-content-start align-items-center">
-                <h3>More information</h3>
+                <h3 class="text-gold fw-bold">More information</h3>
                 <ul class="list-unstyled">
                     <li><a class="text-decoration-none text-light" href="/credits.html">Legales notices</a></li>
                     <li><a class="text-decoration-none text-light" href="/credits.html">Privacy policy</a></li>

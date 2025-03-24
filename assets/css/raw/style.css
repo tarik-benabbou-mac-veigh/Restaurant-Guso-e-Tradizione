@@ -55,7 +55,7 @@
   color: #2E8B57 !important;
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4, header, .list-group-item {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, header, .list-group-item, .btn {
   font-family: "Cinzel", serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -97,7 +97,7 @@ p, span, .accordion-body {
 
 .form-video {
   width: 100%;
-  height: 700px;
+  height: 800px;
 }
 
 .form-video video {
@@ -107,8 +107,8 @@ p, span, .accordion-body {
 }
 
 .menu-image {
-  width: 550px;
-  height: 350px;
+  width: 400px;
+  height: 250px;
 }
 
 .menu-image img {
@@ -118,6 +118,22 @@ p, span, .accordion-body {
 }
 
 /*Images section "The essence of Italy in every bite" are resized as  w:2070px h:1380px */
+.form-main-photo {
+  width: 1000px;
+  height: 650px;
+}
+
+.form-main-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.history-name {
+  font-weight: bold;
+  color: #800020;
+}
+
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors

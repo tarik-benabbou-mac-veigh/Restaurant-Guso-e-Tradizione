@@ -25,7 +25,7 @@
 // ---- MENU PAGE ---- //
 .form-video{
     width: 100%;
-    height: 700px;
+    height: 800px;
 }
 .form-video video{
     object-fit: cover;
@@ -34,8 +34,8 @@
 }
 
 .menu-image{
-    width: 550px;
-    height: 350px;
+    width: 400px;
+    height: 250px;
 }
 
 .menu-image img{
@@ -45,3 +45,21 @@
 }
 
 /*Images section "The essence of Italy in every bite" are resized as  w:2070px h:1380px */
+
+// ---- ABOUT PAGE ---- //
+
+.form-main-photo{
+    width: 1000px;
+    height: 650px;
+}
+
+.form-main-photo img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.history-name{
+    font-weight: bold;
+    color: $light-bordeau;
+}
