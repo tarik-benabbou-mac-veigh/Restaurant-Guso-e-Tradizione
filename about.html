@@ -10,13 +10,24 @@
 <body>
     <header>
         <!-- Navbar -->
-        <nav class="d-flex justify-content-center bg-light-bordeau">
-            <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/index.html">Home</a>
-            <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/about.html">About</a>
-            <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/menu.html">Menu</a>
-            <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/reservation.html">Reservation</a>
-            <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/contact.html">Contact</a>
-        </nav>
+        <nav class="navbar navbar-expand-lg bg-light-bordeau">
+            <div class="container-fluid">
+                <a class="navbar-brand text-gold fw-bold" href="/index.html">~ Gusto e Tradizione ~</a>
+                <!-- Burger menu to make it responsive -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- Menu -->
+                <div class="collapse navbar-collapse justify-content-center" id="menuNavbar">
+                    <div class="d-flex flex-column flex-lg-row">
+                        <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/index.html">Home</a>
+                        <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/about.html">About</a>
+                        <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/menu.html">Menu</a>
+                        <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/reservation.html">Reservation</a>
+                    </div>
+                </div>
+            </div>
+        </nav>      
     </header>
     <main class="bg-light-beige ">
         <div class="position-relative form-image">
@@ -95,17 +106,12 @@
     <footer>
         <section class="d-flex justify-content-evenly bg-light-bordeau text-light p-3">
             <div class="d-flex flex-column justify-content-start align-items-center">
-                <h3 class="text-gold fw-bold">Gusto e Tradizione</h3>
-                <span>"The essence of Italy in every bite"</span>
-            </div>
-            <div class="d-flex flex-column justify-content-start align-items-center">
                 <h3 class="text-gold fw-bold">Let us guide you</h3>
                 <ul class="list-unstyled">
                     <li><a class="text-decoration-none text-light" href="/index.html">Home</a></li>
-                    <li><a class="text-decoration-none text-light" href="/menu.html">Menu</a></li>
                     <li><a class="text-decoration-none text-light" href="/about.html">About</a></li>
+                    <li><a class="text-decoration-none text-light" href="/menu.html">Menu</a></li>
                     <li><a class="text-decoration-none text-light" href="/reservation.html">Reservation</a></li>
-                    <li><a class="text-decoration-none text-light" href="/contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="d-flex flex-column justify-content-cet align-items-center">
@@ -114,7 +120,8 @@
                     <li>12, via del Gusto, 750001 Paris</li>
                     <li>01 23 45 67 89</li>
                     <li>contact@gustoetradizione.fr</li>
-                    <li>Mon - Fri : 12h - 23h Weekend : 12h - 00h</li>
+                    <li>Mon - Fri : 12h - 23h</li> 
+                    <li>Weekend : 12h - 00h</li>
                 </ul>
             </div>
             <div class="d-flex flex-column justify-content-start align-items-center">

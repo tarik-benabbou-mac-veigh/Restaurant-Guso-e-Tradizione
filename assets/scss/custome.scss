@@ -1,3 +1,18 @@
+// ---- HEADER : BURGER MENU ---- //
+.navbar-toggler{
+    background-color: #C9A14A;
+}
+
+// ---- FOOTER ---- //
+@media (max-width: 993px) {
+    footer section {
+        flex-direction: column !important;
+        align-items: center !important;
+    }
+}
+
+
+
 // ---- HOME PAGE ---- //
 .form-image{
     width: 100%;
