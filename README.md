@@ -14,7 +14,6 @@ Project overview
 
 *   HTML
 *   CSS (Bootstrap, Sass)
-*   JavaScript
 *   Figma
 
 ### Installation and operation
