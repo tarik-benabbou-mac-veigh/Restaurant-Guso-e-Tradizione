@@ -62,7 +62,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, header, .list-group-item, .btn {
   font-style: normal;
 }
 
-p, span, .accordion-body {
+p, span, .accordion-body, form {
   font-family: "Merriweather", serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -105,29 +105,6 @@ p, span, .accordion-body {
   height: 100%;
 }
 
-.form-video {
-  width: 100%;
-  height: 800px;
-}
-
-.form-video video {
-  object-fit: cover;
-  width: 100%;
-  height: 100%;
-}
-
-.menu-image {
-  width: 400px;
-  height: 250px;
-}
-
-.menu-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-/*Images section "The essence of Italy in every bite" are resized as  w:2070px h:1380px */
 .form-main-photo {
   width: 1000px;
   height: 650px;
@@ -142,6 +119,32 @@ p, span, .accordion-body {
 .history-name {
   font-weight: bold;
   color: #800020;
+}
+
+.form-video {
+  width: 100%;
+  height: 800px;
+}
+
+.form-video video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.menu-image {
+  width: 900px;
+  height: 550px;
+}
+
+.menu-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.main-reservation {
+  background: url("/assets/images/reservation-gusto-e-tradizione.jpg");
 }
 
 /*!

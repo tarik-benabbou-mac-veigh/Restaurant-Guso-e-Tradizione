@@ -18,7 +18,7 @@
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <!-- Menu -->
-                <div class="collapse navbar-collapse justify-content-center" id="menuNavbar">
+                <div class="collapse navbar-collapse justify-content-end" id="menuNavbar">
                     <div class="d-flex flex-column flex-lg-row">
                         <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/index.html">Home</a>
                         <a class="text-uppercase fz-2 fw-bold text-decoration-none text-light py-3 px-5" href="/about.html">About</a>
@@ -29,7 +29,116 @@
             </div>
         </nav>      
     </header>
-    <main>
+    <main class="main-reservation h-100">
+        <div class="w-100 h-100 d-flex flex-column justify-content-center align-items-center py-5">
+            <h1 class="text-green-sea display-2 fw-bold mt-5 w-50 text-center">Book your table at Gusto e Tradizione</h1>
+            <span class="fs-3 text-light w-50 text-center">Treat yourself to an authentic culinary experience by reserving your table now. A moment of pleasure and Italian tradition awaits you...</span>
+        </div>
+        <form class="container w-50 pb-3">
+            <section class="bg-green-sea p-5 rounded-3 my-4">
+                <!-- Customer information -->
+                <h2 class="text-center fw-bold text-gold mb-4">Customer information</h2>
+                <div class="row justify-content-center">
+                    <div class="col md-6" >
+                        <div class="mb-3">
+                            <label for="clientFirstName" class="form-label fw-bold">First Name</label>
+                            <input type="text" class="form-control" id="clientFirstName">
+                        </div>
+                    </div>
+                    <div class="col md-6" >
+                        <div class="mb-3">
+                            <label for="clientLastName" class="form-label fw-bold">Last Name</label>
+                            <input type="text" class="form-control" id="clientLastName">
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col md-6" >
+                        <div class="mb-3">
+                            <label for="clientPhoneNumber" class="form-label fw-bold">Phone number</label>
+                            <input type="text" class="form-control" id="clientPhoneNumber">
+                        </div>
+                    </div>
+                    <div class="col md-6" >
+                        <div class="mb-3">
+                            <label for="clientEmailAddress" class="form-label fw-bold">Email address</label>
+                            <input type="text" class="form-control" id="clientEmailAddress">
+                        </div>
+                    </div>
+                </div>
+                <!-- Reservation details -->
+                <h2 class="text-center fw-bold text-gold mb-3 mt-5">Reservation details</h2>
+                <div class="row justify-content-center">
+                    <div class="col md-6" >
+                        <div class="mb-3">
+                            <label for="clientReservationDate" class="form-label fw-bold">Select a date</label>
+                            <input type="date" class="form-control" id="clientReservationDate" required>
+                        </div>
+                    </div>
+                    <div class="col md-6" >
+                        <div class="mb-3">
+                            <label for="clientReservationTime" class="form-label fw-bold">Select your prefered time</label>
+                            <select class="form-select" id="clientReservationTime" required>
+                                <option value="" selected disabled>Choose your time slot</option>
+                                <option value="12:00">12:00 PM</option>
+                                <option value="12:30">12:30 PM</option>
+                                <option value="13:00">1:00 PM</option>
+                                <option value="13:30">1:30 PM</option>
+                                <option value="14:00">2:00 PM</option>
+                                <option value="14:30">2:30 PM</option>
+                                <option value="15:00">3:00 PM</option>
+                                <option value="15:30">3:30 PM</option>
+                                <option value="16:00">4:00 PM</option>
+                                <option value="16:30">4:30 PM</option>
+                                <option value="17:00">5:00 PM</option>
+                                <option value="17:30">5:30 PM</option>
+                                <option value="18:00">6:00 PM</option>
+                                <option value="18:30">6:30 PM</option>
+                                <option value="19:00">7:00 PM</option>
+                                <option value="19:30">7:30 PM</option>
+                                <option value="20:00">8:00 PM</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col md-6" >
+                        <div class="mb-3">
+                            <label for="clientAmount" class="form-label fw-bold">How many people ?</label>
+                            <select class="form-select" id="clientAmount" required>
+                                <option value="" selected disabled>Select an option</option>
+                                <option value="1">1 person</option>
+                                <option value="2">2 people</option>
+                                <option value="3">3 people</option>
+                                <option value="4">4 people</option>
+                                <option value="5">5 people</option>
+                                <option value="6">6 people</option>
+                                <option value="more">More than 6</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col md-6" >
+                        <div class="mb-3">
+                            <label for="clientTablePreference" class="form-label fw-bold">Table preference (optional)</label>
+                            <select class="form-select" id="clientTablePreference">
+                                <option value="" selected>No preference</option>
+                                <option value="terrace">Terrace</option>
+                                <option value="window">Near a window</option>
+                                <option value="private">Private room</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div>
+                        <label class="fw-bold mb-2" for="clientComment">Is there anything that you would like to specify ?</label>
+                        <textarea id="clientComment" class="rounded w-100 p-3" style="height: 200px;"></textarea>
+                    </div>
+                </div>
+                <!-- Submit button -->
+                <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-light-bordeau w-50 mt-3">Confirm my reservation</button>
+                </div>
+            </section>
+        </form>
 
     </main>
     <footer>
