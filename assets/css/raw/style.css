@@ -70,8 +70,18 @@ p, span, .accordion-body, form {
   font-variation-settings: "wdth" 100;
 }
 
+* {
+  box-sizing: border-box;
+}
+
+.global-container {
+  /*for big screens*/
+  max-width: 1920px;
+  margin: 0 auto;
+}
+
 .navbar-toggler {
-  background-color: #C9A14A;
+  background-color: #c9a14a;
 }
 
 @media (max-width: 993px) {
@@ -91,6 +101,14 @@ p, span, .accordion-body, form {
   height: 100%;
 }
 
+.object-cover {
+  object-fit: cover;
+}
+
+.object-pos-top {
+  object-position: 50% 30%;
+}
+
 .icon {
   width: 30px;
   height: 30px;
@@ -106,7 +124,7 @@ p, span, .accordion-body, form {
 }
 
 .form-main-photo {
-  width: 500px;
+  width: 1000px;
   height: 650px;
 }
 

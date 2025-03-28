@@ -1,81 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+.global-container {
+  /*for big screens*/
+  max-width: 1920px;
+  margin: 0 auto;
+}
 // ---- HEADER : BURGER MENU ---- //
-.navbar-toggler{
-    background-color: #C9A14A;
+.navbar-toggler {
+  background-color: #c9a14a;
 }
 
 // ---- FOOTER ---- //
 @media (max-width: 993px) {
-    footer section {
-        flex-direction: column !important;
-        align-items: center !important;
-    }
+  footer section {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
 }
 
 // ---- HOME PAGE ---- //
-.form-image{
-    width: 100%;
-    height: 800px;
+.form-image {
+  width: 100%;
+  height: 800px;
 }
-.form-image img{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+.form-image img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
-// control of the svg size : 
-.icon{
-    width: 30px;
-    height: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+// Section chefs :
+
+.object-cover {
+  object-fit: cover;
 }
-.icon svg{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
+.object-pos-top {
+  object-position: 50% 30%;
+}
+
+// control of the svg size :
+.icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon svg {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
 // ---- ABOUT PAGE ---- //
 
-.form-main-photo{
-    width: 500px;
-    height: 650px;
+.form-main-photo {
+  width: 1000px;
+  height: 650px;
 }
 
-.form-main-photo img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.form-main-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.history-name{
-    font-weight: bold;
-    color: $light-bordeau;
+.history-name {
+  font-weight: bold;
+  color: $light-bordeau;
 }
 
 // ---- MENU PAGE ---- //
-.form-video{
-    width: 100%;
-    height: 800px;
+.form-video {
+  width: 100%;
+  height: 800px;
 }
-.form-video video{
-    object-fit: cover;
-    width: 100%;
-    height: 100%;
-}
-
-.menu-image{
-    width: 900px;
-    height: 550px;
+.form-video video {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
 }
 
-.menu-image img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.menu-image {
+  width: 900px;
+  height: 550px;
+}
+
+.menu-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 // ---- RESERVATION PAGE ---- //
-.main-reservation{
-    background: url('/assets/images/reservation-gusto-e-tradizione.jpg');
+.main-reservation {
+  background: url("/assets/images/reservation-gusto-e-tradizione.jpg");
 }
