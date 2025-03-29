@@ -71,6 +71,15 @@
   font-weight: bold;
   color: $light-bordeau;
 }
+/*Modification of the view on mobile phone*/
+@media screen and (max-width: 991px){
+  .responsive-order-1 {
+      order: 1;
+  }
+  .responsive-order-2 {
+      order: 2;
+  }
+}
 
 // ---- MENU PAGE ---- //
 .form-video {

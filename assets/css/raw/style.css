@@ -139,6 +139,15 @@ p, span, .accordion-body, form {
   color: #800020;
 }
 
+/*Modification of the view on mobile phone*/
+@media screen and (max-width: 991px) {
+  .responsive-order-1 {
+    order: 1;
+  }
+  .responsive-order-2 {
+    order: 2;
+  }
+}
 .form-video {
   width: 100%;
   height: 800px;
